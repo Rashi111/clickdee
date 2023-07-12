@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+}
+
+.hading-color {
+  color: #001b5d;
+  font-size: 2rem;
+
+}
+
+.text-paragraph {
+  color: #000000;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 5.5rem;
+}
+
+.icon-text {
+  color: #001b5d;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 4rem;
+
+
+}
+
+.chooseItem {
+  background-color: #f6fbfe;
+  text-align: left;
+
+
+
+}
+
+.something-inside-but-hidden {
+  display: none
+}
+
+.main-div:hover .something-inside-but-hidden {
+  display: block;
+  color: #000000;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  padding: 2rem 4rem;
+  background: #ffffff;
+
+}
+
+.chooseItem:hover {
+  background: #ffffff;
+
+}
+
+.Imge_icn {
+  padding-left: 4rem;
+
+}
+
+.main-div {
+  padding-left: 4rem;
+
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%;
+  margin-top: 50px; */
+  /* transform: translate(-50%, -50%); */
+}
+
+/* .main-div:hover {
+  transform: scale(1.2) rotate(-5deg);
+} */
